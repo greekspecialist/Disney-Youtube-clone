@@ -3,7 +3,15 @@ import styled from "styled-components";
 const Login = (props) => {
     return (
     <Container>
-        <Content> <BgImage/> </Content>
+        <Content> 
+            <CTALogoOne src ="/Images/cta-logo-one.png" alt=""/> 
+            <SignUp>GET ALL THERE </SignUp>
+            <Description>“Expanding access to Disney+ to a broader audience at a lower price point is a win for everyone - consumers, advertisers, and our storytellers”</Description>
+            <CTA/>
+            <CTALogoTwo src = "/Images/cta-logo-two.png" alt= ""/>
+            <BgImage/>
+            
+        </Content>
     </Container>
     )
 };
@@ -43,4 +51,63 @@ right: 0;
 left: 0;
 z-index: -1;
 `;
+
+
+const CTA = styled.div`
+margin-bottom: 2vw;
+max-width: 650px;
+flex-wrap: wrap;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 0;
+align-items: center;
+text-align: center;
+margin-right: auto;
+`;
+
+const CTALogoOne = styled.img`
+margin-botto,: 12px;
+max-width: 600px;
+min-height:1px;
+display: block;
+width: 100%;
+`;
+
+const SignUp = styled.a`
+font-weight: bold;
+color:#f9f9f9;
+background-color: #0063e5;
+margin-bottom: 12px;
+width: 600px;
+letter-spacing: 1.5px;
+font-size: 18px;
+padding: 16.5px 0;
+border: 1px solid transparent;
+border-radius: 4px;
+&:hover{
+    background-color: #0483ee;
+}
+`;
+
+const Description = styled.p`
+color: hsla(0,0%, 95.3% 1);
+max-width: 650px;
+font-weight: bold;
+font-size: 16px;
+margin: 0 0 24px;
+line-height: 1.5;
+letter-spacing: 1px;
+`;
+
+const CTALogoTwo = styled.img`
+margin-botto,: 20px;
+max-width: 700px;
+min-height:1px;
+display: inline-block;
+width: 100%;
+vertical-align: bottom;
+`;
+
+
 export default Login;
