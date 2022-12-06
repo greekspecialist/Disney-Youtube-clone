@@ -17,6 +17,8 @@ display: flex;
 justify-content: space-between;
 align-items: centre;
 padding: 0 36px;
+letter-spacing: 10px;
+z-index:3;
 
 `;
 
