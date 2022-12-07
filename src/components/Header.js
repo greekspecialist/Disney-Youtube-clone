@@ -56,7 +56,7 @@ z-index:3;
 
 const Logo = styled.a`
 padding: 0;
-width: 900px;
+width: 90px;
 margin-top:4px;
 max-height: 70px;
 font-size: 40px;
@@ -138,9 +138,14 @@ span{
 
 const Login = styled.a`
 background-color: rgba(0, 0, 0, 0.6);
-align-items: center;
+font-size:28px;
 padding: 8px 16px; 
 text-transform: uppercase;
+Letter-spacing: 1.5px;
+border: 1px solid #f9f9f9;
+border-radius: 4px;
+transition: all .2s ease 0s;
+
 `;
 
 
