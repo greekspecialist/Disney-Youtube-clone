@@ -138,13 +138,21 @@ span{
 
 const Login = styled.a`
 background-color: rgba(0, 0, 0, 0.6);
+align-items: center;
+display: flex;
 font-size:28px;
 padding: 8px 16px; 
 text-transform: uppercase;
 Letter-spacing: 1.5px;
 border: 1px solid #f9f9f9;
 border-radius: 4px;
-transition: all .2s ease 0s;
+transition: all 0.2s ease 0s;
+
+&: hover{
+    background-color: #f9f9f9;
+    color: #000;
+    border-color: transparent;
+}
 
 `;
 
