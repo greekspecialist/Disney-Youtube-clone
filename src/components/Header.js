@@ -56,10 +56,10 @@ z-index:3;
 
 const Logo = styled.a`
 padding: 0;
-width: 90px;
+width: 900px;
 margin-top:4px;
 max-height: 70px;
-font-size;
+font-size: 40px;
 display: inline-block;
 
 img{
@@ -139,6 +139,8 @@ span{
 const Login = styled.a`
 background-color: rgba(0, 0, 0, 0.6);
 align-items: center;
+padding: 8px 16px; 
+text-transform: uppercase;
 `;
 
 
